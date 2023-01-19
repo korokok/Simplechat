@@ -1,0 +1,14 @@
+How to run Program
+1.Install Visual Studio 2022 And SqlExpress2019
+2.Install C# webform/program inside Visual Studio 2022
+3.Open sln/program File.
+4.Open file appsetting.json  change  default connection to connect your directory /datasource
+5.Open Sqlexpress/mssql create database called RsengerAcounts
+6.Back to sln/program and create migration 
+7.On header tab click Tools>NuGet Package Manager>Packange Manager Console
+8.At the bottom you open the Console.
+9. now Type - Add-migration (anystring)
+10.now Type - update-database 
+11. Now you can Debug/Run the Program
+
+##Renzzz
